@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: #10111f;
+    
+   
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: #f0f5eb;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.todocard{
+    
+    background-color: black;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+
+    box-shadow: 0 0 10px #ad2121;
+}
+
+.input{
+    display: flex;
+    
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.task{
+    padding: 15PX;
+    border-radius: 5px;
+    width: 70%;
+    border: none;
+    background-color: #544552;
+    color:#f0f5eb;
+    outline: none;
+
+}
+
+
+
+button{
+    padding: 5PX;
+    border-radius: 5px;
+    border: none;
+    background-color: #ad2121;
+    color:#f0f5eb;
+}
+
+button:hover{
+    background-color: #500b0b;
+}
