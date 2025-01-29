@@ -7,6 +7,7 @@
 
 body{
     background-color: #10111f;
+    height: 100vh;
     
    
 
@@ -30,7 +31,7 @@ h1{
 .todocard{
     
     background-color: black;
-    height: 300px;
+    
     padding: 20px;
     border-radius: 20px;
 
@@ -54,10 +55,42 @@ h1{
     outline: none;
 
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
 
+li {
+  background-color: #333333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f0f5eb;
+}
 
+li.completed {
+  text-decoration: line-through;
+  opacity: 1;
+  text-transform:uppercase
+}
 
 button{
+    padding: 5PX;
+    border-radius: 5px;
+    border: none;
+    background-color: #183de4;
+    color:#f0f5eb;
+
+}
+button:hover{
+    background-color: #500b0b;
+}
+
+
+li button{
     padding: 5PX;
     border-radius: 5px;
     border: none;
@@ -65,6 +98,6 @@ button{
     color:#f0f5eb;
 }
 
-button:hover{
+li button:hover{
     background-color: #500b0b;
 }
