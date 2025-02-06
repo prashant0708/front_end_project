@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 5px;
+    padding: 5px;
+    background-color:hsl(110, 2%, 5%);
+}
+
+.container{
+    height:100vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+h2,p{
+    color: rgb(231, 221, 221);
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 5PX;
+}
+
+.api_card{
+    background-color: rgb(44, 44, 44);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ad2121;
+
+}
+
+.Input{
+    display: flex;
+    flex: row;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.City{
+    padding: 10px;
+    background-color: #544552;
+    color:rgb(236, 234, 234);
+    font-size: 15px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+button{
+    padding: 5PX;
+    border-radius: 5px;
+    border: none;
+    background-color: #183de4;
+    color:#ebece9;
+    font-size: medium;
+
+    
+
+}
+button:hover{
+    background-color: #500b0b;
+}
+
+
+
+.hidden{
+    display: none;
+}
